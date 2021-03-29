@@ -92,10 +92,6 @@ class Bot {
 		}
 		await sleep(1000+(rand(1,2)*1000))
 		this.setJob(id, jconfig.names[Math.floor(Math.random() * jconfig.names.length)])
-		await sleep(800)
-		if(this.needFetters){
-			this.buyFetters(id)
-		}
 	}
 
 	async buySlave (id, needmax) {
@@ -108,6 +104,10 @@ class Bot {
 				await this.maxSlave(id, 16)
 			else
 				await this.setJob(id, jconfig.names[Math.floor(Math.random() * jconfig.names.length)])
+			if(this.needFetters{
+				await sleep(800)
+				this.buyFetters(id)
+			}
 		}else{
 			return log('Сильно дорогой для нас :(');
 		}
