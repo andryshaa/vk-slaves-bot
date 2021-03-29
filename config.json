@@ -1,0 +1,17 @@
+{
+    "debugging": false,
+    "infome": true,
+    "infomsg": true,
+    "infomeInterval": 105,
+    "names": [
+        "by @iamxyesos", "Название работы"
+    ],
+    "accounts": [
+        {
+            "token": "Токен",
+            "limit_buy": 200000,
+            "upgrade": true,
+            "fetters": false
+        }
+    ]
+}
