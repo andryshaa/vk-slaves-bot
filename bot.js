@@ -104,7 +104,7 @@ class Bot {
 				await this.maxSlave(id, 16)
 			else
 				await this.setJob(id, jconfig.names[Math.floor(Math.random() * jconfig.names.length)])
-			if(this.needFetters{
+			if(this.needFetters){
 				await sleep(800)
 				this.buyFetters(id)
 			}
