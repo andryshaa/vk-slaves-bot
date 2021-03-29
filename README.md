@@ -1,1 +1,2 @@
 # vk-slaves-bot
+Говнокод
